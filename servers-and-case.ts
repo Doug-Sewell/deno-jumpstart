@@ -12,7 +12,7 @@ for await(const req of server) {
 }
 */
 
-
+//Case package which will return a string formatted in a specific way.
 import { camelCase, paramCase, pascalCase, snakeCase } from "https://deno.land/x/case/mod.ts";
 
 const text = 'Hello again ninjas';
